@@ -13,3 +13,156 @@
  *= require_tree .
  *= require_self
  */
+ 
+ * {
+  box-sizing: border-box;
+  margin: 0 auto;
+  list-style: none;
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  opacity: 0.5;
+}
+.header-wrap {
+  background-image: url('main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.header-container {
+  width: 1100px;
+}
+.header {
+  padding-top: 30px;
+}
+.header h1 {
+  display: inline-block;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav li {
+  margin: 0 30px;
+}
+.header-container-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.news {
+  margin: 0 50px;
+  padding: 80px 0;
+}
+
+.news-title {
+  text-align: center;
+  font-size: 38px;
+  padding-bottom: 35px;
+}
+
+.news-list {
+  max-width: 700px;
+}
+
+.news-list li {
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.news-day {
+  padding-right: 30px;
+}
+
+.case {
+  margin: 0 50px;
+  padding: 40px 0 80px;
+}
+.case-title {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.case-content {
+  display: flex;
+}
+.case-content-img {
+  width: 430px;
+  margin: 0 auto;
+}
+.case-content-img img {
+  width: 100%;
+}
+.case-content-right {
+  width: 50%;
+}
+.case-content-left {
+  width: 50%;
+}
+.case-content-title {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 22px;
+}
+.case-content-text {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.case-content-btn {
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+.case-lists {
+  text-align: center;
+  margin-top: 80px;
+}
+.case-lists a {
+  border: solid 1px black;
+  padding: 12px 40px;
+  display: inline-block;
+}
+.links {
+  display: flex;
+  padding-top: 90px;
+}
+.link-img {
+  width: calc(100%/3);
+}
+.link-img img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 130px;
+}
+.footer-content {
+  max-width: 1100px;
+}
+.footer-content a{
+  color: white;
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 28px;
+}
+.copy {
+  text-align: center;
+  padding-top: 80px;
+}
